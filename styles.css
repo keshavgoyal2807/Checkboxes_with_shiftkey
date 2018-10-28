@@ -27,3 +27,7 @@ p{
 .main1:last-child{
     border-bottom: 0;
 }
+input:checked+p{
+    text-decoration:line-through;
+    background-color: aquamarine;
+}
